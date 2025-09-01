@@ -8,7 +8,7 @@ def login():
   db = pymysql.connect("localhost")
   cursor = db.cursor()
 
-  # Execute the vulnerable SQL query concatenating user-provided input. asd
+  # Execute the vulnerable SQL query concatenating user-provided input. asdsdaf
   cursor.execute("SELECT * FROM users WHERE username = '%s' AND password = '%s'" % (username, password))
 
   # If the query returns any matching record, consider the current user logged in.
@@ -18,6 +18,7 @@ def login():
 
   # disconnect from server 3
   db.close()
+
 
 
 
