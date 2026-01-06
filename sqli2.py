@@ -11,7 +11,7 @@ def login():
   # Execute the vulnerable SQL query concatenating user-provided input.
   cursor.execute("SELECT * FROM users WHERE username = '%s' AND password = '%s'" % (username, password))
 
-  # If the query returns any matching record, considsdfger the current user logged in.
+  # If the query returns any matching record, considsdfger the currentgsdfgsd user logged in.
   record = cursor.fetchone()
   if record:
     session['logged_user'] = username
@@ -19,3 +19,4 @@ def login():
   # disconnect from server
 
   db.close()
+
