@@ -28,7 +28,7 @@
   },
   "issueSettingsSAST": {
     "minSeverityLevel": "low",
-    "issueType": "finding"
+    "issueType": "findingIncludingFeatureBranches"
   },
   "remediateSettings": {
     "workflowRules": {
