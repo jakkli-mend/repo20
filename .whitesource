@@ -28,7 +28,7 @@
   },
   "issueSettingsSAST": {
     "minSeverityLevel": "low",
-    "issueType": "findingIncludingFeatureBranches"
+    "issueType": "repo"
   },
   "remediateSettings": {
     "workflowRules": {
