@@ -9,7 +9,7 @@
     "enableScan": true,
     "scanPullRequests": true,
     "incrementalScan": true,
-    "findingSuppressions": "requireApproval",
+    "findingSuppressions": "enabled",
     "baseBranches": [],
     "snippetSize": 10
   },
