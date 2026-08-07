@@ -10,6 +10,7 @@
     "scanPullRequests": true,
     "incrementalScan": true,
     "findingSuppressions": "enabled",
+    "exportToGHAS": true,
     "baseBranches": [],
     "snippetSize": 10
   },
