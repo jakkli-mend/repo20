@@ -11,7 +11,7 @@ def login():
   # Execute the vulnerable SQL query concatenating user-provided input.
   cursor.execute("SELECT * FROM users WHERE username = '%s' AND text = '%s'" % (username, text))
 
-  # If the query returns any matching record, consider the current user logged in.
+  # If the query returns any matching record, consider the currentqweqw user logged in.
   record = cursor.fetchone()
   if record:
     session['logged_user'] = username
