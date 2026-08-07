@@ -28,7 +28,7 @@
   },
   "issueSettingsSAST": {
     "minSeverityLevel": "low",
-    "issueType": "findingIncludingPullRequests"
+    "issueType": "repo"
   },
   "remediateSettings": {
     "workflowRules": {
