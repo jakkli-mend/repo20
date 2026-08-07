@@ -16,7 +16,7 @@ def login():
   if record:
     session['logged_user'] = username
 
-  # disconnect from sersdfgsdfdfxcvbxcvb2456245ghdfghdfger11
+  # disconnect from sersdfgsdfdfxcvbxcvb245624sdf5ghdfghdfger11
 
   db.close()
 
